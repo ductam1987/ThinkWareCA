@@ -1,0 +1,252 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5877977648794352207",
+      "lastPropertyId": "16:4348823018524451241",
+      "name": "DbMovie",
+      "properties": [
+        {
+          "id": "1:3609153725677224061",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3971196329609286250",
+          "name": "idMovie",
+          "indexId": "1:5020941069957488839",
+          "type": 6,
+          "flags": 32808
+        },
+        {
+          "id": "3:1793086896938807335",
+          "name": "posterPath",
+          "type": 9
+        },
+        {
+          "id": "4:4611247398642714787",
+          "name": "popularity",
+          "type": 8
+        },
+        {
+          "id": "5:6172211501846776285",
+          "name": "voteCount",
+          "type": 5
+        },
+        {
+          "id": "6:4446414513769346951",
+          "name": "video",
+          "type": 1
+        },
+        {
+          "id": "7:1104973030020573386",
+          "name": "mediaType",
+          "type": 9
+        },
+        {
+          "id": "8:3638715692624309644",
+          "name": "adult",
+          "type": 1
+        },
+        {
+          "id": "9:7650922028260581055",
+          "name": "backdropPath",
+          "type": 9
+        },
+        {
+          "id": "10:222227804332445995",
+          "name": "originalLanguage",
+          "type": 9
+        },
+        {
+          "id": "11:3873421932027240434",
+          "name": "originalTitle",
+          "type": 9
+        },
+        {
+          "id": "12:4827729561219411426",
+          "name": "genreIds",
+          "type": 30
+        },
+        {
+          "id": "13:5704698437649815101",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "14:489028616129826388",
+          "name": "voteAverage",
+          "type": 8
+        },
+        {
+          "id": "15:6271019654649496021",
+          "name": "overview",
+          "type": 9
+        },
+        {
+          "id": "16:4348823018524451241",
+          "name": "releaseDate",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5211879797278783577",
+      "lastPropertyId": "23:688773091807639806",
+      "name": "DbMovieDetail",
+      "properties": [
+        {
+          "id": "1:4806130883966922489",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:6925641232146074738",
+          "name": "adult",
+          "type": 1
+        },
+        {
+          "id": "3:3466078848070504418",
+          "name": "backdropPath",
+          "type": 9
+        },
+        {
+          "id": "4:3391969544138973226",
+          "name": "budget",
+          "type": 5
+        },
+        {
+          "id": "5:1381546134217896227",
+          "name": "genres",
+          "type": 9
+        },
+        {
+          "id": "6:4134274052937799443",
+          "name": "homepage",
+          "type": 9
+        },
+        {
+          "id": "7:2254299893185447424",
+          "name": "imdbId",
+          "type": 9
+        },
+        {
+          "id": "8:2545267799460330712",
+          "name": "originalLanguage",
+          "type": 9
+        },
+        {
+          "id": "9:6364332632146792206",
+          "name": "originalTitle",
+          "type": 9
+        },
+        {
+          "id": "10:7850489229379711104",
+          "name": "overview",
+          "type": 9
+        },
+        {
+          "id": "11:6512304009639674120",
+          "name": "popularity",
+          "type": 8
+        },
+        {
+          "id": "12:3228524220060216549",
+          "name": "posterPath",
+          "type": 9
+        },
+        {
+          "id": "13:5696711862940001174",
+          "name": "releaseDate",
+          "type": 9
+        },
+        {
+          "id": "14:4155846269902422630",
+          "name": "revenue",
+          "type": 5
+        },
+        {
+          "id": "15:8520692392120616342",
+          "name": "runtime",
+          "type": 5
+        },
+        {
+          "id": "16:2848531640451598255",
+          "name": "spokenLanguages",
+          "type": 9
+        },
+        {
+          "id": "17:1833864123131874817",
+          "name": "status",
+          "type": 9
+        },
+        {
+          "id": "18:8473010318591326453",
+          "name": "tagline",
+          "type": 9
+        },
+        {
+          "id": "19:2361432988835252191",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "20:3052813215456318266",
+          "name": "video",
+          "type": 1
+        },
+        {
+          "id": "21:5990084827667386502",
+          "name": "voteAverage",
+          "type": 8
+        },
+        {
+          "id": "22:6673287341159783838",
+          "name": "voteCount",
+          "type": 5
+        },
+        {
+          "id": "23:688773091807639806",
+          "name": "productionCountries",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:5964685405349060761",
+      "lastPropertyId": "2:8249764738574089552",
+      "name": "DbMovies",
+      "properties": [
+        {
+          "id": "1:4797927271313065295",
+          "name": "totalPages",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:8249764738574089552",
+          "name": "totalResult",
+          "type": 5
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:5964685405349060761",
+  "lastIndexId": "1:5020941069957488839",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
