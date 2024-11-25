@@ -8,6 +8,7 @@ import org.koin.core.component.inject
 open class TCAApplication :
     Application(),
     KoinComponent {
+        // Inject LocalDbRepository
     private val localDbRepository by inject<LocalDbRepository>()
 
     override fun onCreate() {
