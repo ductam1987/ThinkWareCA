@@ -12,6 +12,7 @@ open class TCAApplication :
     private val localDbRepository by inject<LocalDbRepository>()
 
     override fun onCreate() {
+        // Initialize LocalDbRepository
         super.onCreate()
         localDbRepository.init(applicationContext)
     }
