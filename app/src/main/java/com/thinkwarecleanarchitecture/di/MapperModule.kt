@@ -12,6 +12,7 @@ import org.koin.dsl.module
  * Created by Tam Nguyen on 11/07/2024.
  */
 @OptIn(ExperimentalSerializationApi::class)
+// This module is responsible for providing mappers for the application
 val mapperModule =
     module {
         single {
